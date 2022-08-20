@@ -1,0 +1,51 @@
+
+//
+// https://www.artax.krakow.pl/flex-box-rozmieszczenie.1,14.html
+//
+
+
+
+.wrapper {
+//	width: 100%;
+//	margin: 50px auto 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top:20px;
+//	align-items: center;
+}
+
+.login_wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+//	align-items: center;
+}
+
+
+.form_form {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form_item {
+  width: 100%;
+  margin: 9px 0;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.form_button {
+  font-size: 10px;
+  text-decoration: none;
+  margin: 9px 0;
+  padding: 7px 12px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #1e58ff;
+  color: #1e58ff;
+}

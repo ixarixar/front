@@ -1,0 +1,28 @@
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding-top:20px;
+}
+
+
+.navigation{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	&Item{
+		list-style: none;
+		padding-right: 3ex;
+		
+		&Link {
+			text-decoration: none;
+			color: #888;
+			
+			&Active{
+				font-weight: 700;
+			}
+		}
+		
+	}
+}
+

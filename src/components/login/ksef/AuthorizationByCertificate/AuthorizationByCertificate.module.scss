@@ -1,0 +1,40 @@
+
+.wrapper {
+	
+//	width: 100%;
+	display: flex;
+	//flex-direction: column;
+	//align-items: flex-start;
+	
+}
+
+.radio {
+	margin-left:2ex;
+	margin-right:1ex;
+	
+}
+
+.radios {
+	margin-bottom: 0.5em;
+	font-size: 12px; 
+}
+
+.button_wraper {
+	margin: 0.5em auto;
+}
+
+.formItem {
+  width: 100%;
+  margin: 24px 0;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.label {
+  color: #7d7d7d;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  transition: 0.2s ease-out all;
+  font-size: 10px;
+}
