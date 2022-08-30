@@ -2,10 +2,6 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-<<<<<<< Upstream, based on origin/master
-=======
->>>>>>> 4491447 (initial)
   "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -28,18 +24,6 @@
     "react-validation": "^3.0.7",
     "typescript": "^4.6.3",
     "validator": "^13.7.0",
-<<<<<<< HEAD
-=======
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.0.1",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1",
->>>>>>> 836ef1b Initialize project using Create React App
-=======
->>>>>>> 4491447 (initial)
     "web-vitals": "^2.1.4"
   },
   "scripts": {
